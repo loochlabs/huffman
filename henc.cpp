@@ -221,5 +221,7 @@ int main(int argc, char** argv){
 	infile.close();
 	outfile.close();
 
+	delete freq_heap;
+
 	return 0;
 }
